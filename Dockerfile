@@ -10,6 +10,7 @@ ARG HIVE_VERSION
 # https://docs.docker.com/engine/reference/builder/#environment-replacement
 ENV HIVE_VERSION=${HIVE_VERSION:-2.3.2}
 
+
 ENV HIVE_HOME /opt/hive
 ENV PATH $HIVE_HOME/bin:$PATH
 ENV HADOOP_HOME /opt/hadoop-$HADOOP_VERSION
